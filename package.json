@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "apis/service.js",
+  "scripts": {
+    "start": "node apis/service.js",
+    "dev": "nodemon apis/service.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.3",
+    "mysql2": "^3.14.1",
+    "jsonwebtoken": "^9.0.3",
+    "bcrypt": "^6.0.0",
+    "nodemailer": "^7.0.13",
+    "multer": "^2.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
