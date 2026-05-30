@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "service/service.js",
   "scripts": {
-    "start": "node apis/service.js",
-    "dev": "nodemon apis/service.js"
+    "start": "node service/service.js",
+    "dev": "nodemon service/service.js"
   },
   "dependencies": {
     "express": "^5.2.1",
