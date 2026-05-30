@@ -1,7 +1,7 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "main": "apis/service.js",
+  "main": "service/service.js",
   "scripts": {
     "start": "node apis/service.js",
     "dev": "nodemon apis/service.js"
